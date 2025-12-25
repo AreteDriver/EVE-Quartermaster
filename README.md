@@ -84,10 +84,29 @@ EVE-Quartermaster/
 │   │   └── AIService.ts           # AI assistance logic
 │   ├── types/             # TypeScript type definitions
 │   └── utils/             # Utility functions
+├── desktop-tools/         # Desktop companion utilities
+│   └── linux/             # Linux multi-boxing scripts
 ├── App.tsx                # Root component
 ├── package.json
 └── tsconfig.json
 ```
+
+## 🖥️ Desktop Tools (Linux)
+
+Companion scripts for managing multiple EVE client windows on Linux. Perfect for multi-boxing.
+
+```bash
+# Install dependencies
+sudo apt-get install wmctrl xdotool rofi
+
+# Tile all EVE windows in a preview grid
+./desktop-tools/linux/eve_tile_all.sh
+
+# Interactive menu to switch between clients
+./desktop-tools/linux/eve_switcher.sh
+```
+
+See [desktop-tools/README.md](desktop-tools/README.md) for full documentation.
 
 ## 🔑 Key Features Explained
 
